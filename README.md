@@ -51,5 +51,3 @@ The testbench does the following:
 ## 🧪 Waveform Example
 
 ![image](https://github.com/user-attachments/assets/fad9b5ab-5767-4597-ba5f-51e1055bef5d)
-
-.
