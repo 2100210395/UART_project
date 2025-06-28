@@ -17,7 +17,7 @@ This repository contains a complete Verilog implementation of the **UART (Univer
 * ✅ Simple FSM-based design for both TX and RX
 * ✅ 1 start bit, 8 data bits, 1 stop bit format
 * ✅ Testbench to verify TX → RX functionality
-* ✅ Written in clean, modular Verilog HDL
+* ✅ Written in clean, modular Verilog/System Verilog HDL
 * ✅ Simulated and verified in Vivado
 
 ---
@@ -33,10 +33,10 @@ This repository contains a complete Verilog implementation of the **UART (Univer
 
 ## 📂 Files Included
 
-* `UART_tx.v` – UART Transmitter module
-* `UART_rx.v` – UART Receiver module
+* `UART_tx.sv` – UART Transmitter module
+* `UART_rx.sv` – UART Receiver module
 * `UART_top.v` – Top-level module connecting TX and RX
-* `UART_tb.v` – Testbench to simulate the UART protocol
+* `UART_tb.sv` – Testbench to simulate the UART protocol
 
 ---
 
@@ -50,15 +50,6 @@ The testbench does the following:
 
 ## 🧪 Waveform Example
 
+![image](https://github.com/user-attachments/assets/fad9b5ab-5767-4597-ba5f-51e1055bef5d)
 
-
-## 📦 Getting Started
-
-1. Clone the repo
-
-   ```bash
-   git clone https://github.com/your-username/UART-Verilog.git
-   cd UART-Verilog
-   ```
-2. Open the files in **Vivado** or any Verilog simulator (e.g., ModelSim, GTKWave).
-3. Run the testbench to verify functionality.
+.
